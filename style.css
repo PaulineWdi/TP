@@ -20,3 +20,25 @@
     flex: 0 0 80%;
     text-align: center;
 }
+
+li{
+    padding: 10%;
+    text-transform: uppercase;
+}
+
+li:first-child{
+    margin-top: 50%;
+}
+
+li:hover{
+    background-color: rgb(155, 93, 49);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    height: 100vh;
+}
