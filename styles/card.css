@@ -1,0 +1,22 @@
+.card{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 70vh;
+    width: 50vw;
+}
+
+button{
+    background-color:rgb(216, 133, 74);
+    padding: 4%;
+    margin: 2%;
+}
+
+span{
+    margin: 2%;
+}
+
+p{
+    margin: 2%;
+}

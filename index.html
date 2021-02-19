@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>Flexbox</title>
 </head>
 <body>
@@ -32,9 +32,24 @@
         </div>
         <div class="content">
             <section id="dashboard">
-                <h1>
-                    Tableau de Bord
-                </h1>
+                <div class="card">
+                    <div class="cardTitle">
+                        <img src="./assets/images/onewheel-xr.png" class="cardImage"/>
+                    </div>
+                    <div class="cardContent">
+                        <h2>One Wheel</h2>
+                        <p>
+                            Franchement à ce prix là on en prendrait bien deux! 
+                        </p>
+                        <span class="price">
+                            €2000
+                        </span>
+                        
+                    </div>
+                    <div class="cardActions">
+                        <button class="cardButton" id="addToCart" onclick="addToCart('OneWheel');">Ajouter au panier</button>
+                    </div>
+                </div>
             </section>
             <section id="settings">
                 <h1>
